@@ -338,3 +338,26 @@ body{
     visibility: visible;
     opacity: 1;
 }
+
+.emailTxt{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.scrollable-content::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  
+  /* For Firefox */
+  .scrollable-content {
+    scrollbar-width: none; /* Hide the scrollbar */
+  }
+  
+  /* Make sure content is scrollable */
+  .scrollable-content {
+    overflow-y: auto; /* Ensure vertical scrolling is enabled */
+    height: 100%;
+  }
+  
